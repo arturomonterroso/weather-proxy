@@ -1,0 +1,8 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+    -   id: trailing-whitespace        # Cleans up messy spacing
+    -   id: end-of-file-fixer          # Ensures files end correctly
+    -   id: check-yaml                 # Validates YAML syntax
+    -   id: detect-private-key         # SECURITY: Blocks private keys from being committed

@@ -1,0 +1,19 @@
+# .gitignore
+
+# 1. Security (NEVER commit these)
+.env
+*.pem
+secrets.json
+
+# 2. Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 3. OS Junk
+.DS_Store
+Thumbs.db
+
+# 4. IDE settings (Optional, but good practice)
+.vscode/
+.idea/
